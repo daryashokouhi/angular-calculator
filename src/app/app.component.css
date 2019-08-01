@@ -9,6 +9,8 @@ body{
     border: 1px gray solid;
     border-radius: 10px;
     text-align: center;
+    background: rgba(0, 43, 100, 0.1);
+
 }
 
 .num-input{
@@ -25,14 +27,14 @@ body{
 }
 
 .calc-btn{
-    padding: 10px 20px;
-    margin: 10px;
-    background: #910000;
-    border: 1px solid #910000;
-    border-radius: 5px;
-    color: #fff;
+    margin: 10px 0px 10px 30px;
+    border: rgb(0, 43, 100) 0.5px solid;
+    color: #002b64;
+    border-radius: 50%;
     font-size: 1.1rem;
+    font-weight: bold;
     cursor: pointer;
+    padding: 5px;
 }
 
 .calc-btn:hover{
@@ -43,10 +45,10 @@ body{
 .btn{
     padding: 5px 10px;
     margin: 10px;
-    background: #003391;
-    border: 1px solid #003391;
-    border-radius: 5px;
-    color: #fff;
+    border: none;
+    color: #222;
+    font-size: 2rem;
+    background: transparent;
 }
 
 .calc-btn:active, .calc-btn:focus, .btn:active, .btn:focus{
@@ -56,13 +58,14 @@ body{
 
 .container{
     display: flex;
-    max-width: 260px;
+    max-width: 300px;
     margin: 0 auto;
+    justify-content: space-evenly;
 }
 
 .result{
     font-weight: 300;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 43, 100, 0.1);
     padding: 3px 5px;
 }
 

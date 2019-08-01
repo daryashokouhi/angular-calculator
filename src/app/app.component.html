@@ -16,7 +16,7 @@
               <input type="text" [(ngModel)]="Operand1" class="num-input" name="input1" pattern="^-?[0-9]\d*(\.\d+)?$" #input1="ngModel" />              
               <input type="button" class="btn" value="+">
               <input type="text" [(ngModel)]="Operand2" class="num-input" pattern="^-?[0-9]\d*(\.\d+)?$" name="input2" #input2="ngModel"/>
-              <input type="button" class="calc-btn" value="=" (click)="doAddition()">
+              <input type="button" class="calc-btn" value="Go" (click)="doAddition()">
               
               <div [hidden]="input1.valid || input1.pristine">
                 <span class="error msg" *ngIf="input1?.errors?.pattern">Only numbers are allowed.</span>
@@ -34,7 +34,7 @@
               <input type="text" [(ngModel)]="Operand3" class="num-input" name="input3" pattern="^-?[0-9]\d*(\.\d+)?$" #input3="ngModel"/>
               <input type="button" class="btn" value="-">
               <input type="text" [(ngModel)]="Operand4" class="num-input" name="input4" pattern="^-?[0-9]\d*(\.\d+)?$" #input4="ngModel"/>
-              <input type="button" class="calc-btn" value="=" (click)="doSubtraction()">
+              <input type="button" class="calc-btn" value="Go" (click)="doSubtraction()">
 
               <div [hidden]="input3.valid || input3.pristine">
                 <span class="error msg" *ngIf="input3?.errors?.pattern">Only numbers are allowed.</span>
@@ -52,7 +52,7 @@
               <input type="text" [(ngModel)]="Operand5" class="num-input" name="input5" pattern="^-?[0-9]\d*(\.\d+)?$" #input5="ngModel"/>
               <input type="button" class="btn" value="*">
               <input type="text" [(ngModel)]="Operand6" class="num-input" name="input6" pattern="^-?[0-9]\d*(\.\d+)?$" #input6="ngModel"/>
-              <input type="button" class="calc-btn" value="="   (click)="doMultiplication()">
+              <input type="button" class="calc-btn" value="Go"   (click)="doMultiplication()">
 
               <div [hidden]="input5.valid || input5.pristine">
                 <span class="error msg" *ngIf="input5?.errors?.pattern">Only numbers are allowed.</span>
@@ -70,7 +70,7 @@
               <input type="text" [(ngModel)]="Operand7" class="num-input" name="input7" pattern="^-?[0-9]\d*(\.\d+)?$" #input7="ngModel"/>
               <input type="button" class="btn" value="/">
               <input type="text" [(ngModel)]="Operand8" class="num-input" name="input8" pattern="^-?[0-9]\d*(\.\d+)?$" #input8="ngModel"/>
-              <input type="button" class="calc-btn" value="=" (click)="doDivision()">
+              <input type="button" class="calc-btn" value="Go" (click)="doDivision()">
 
               <div [hidden]="input7.valid || input7.pristine">
                 <span class="error msg" *ngIf="input7?.errors?.pattern">Only numbers are allowed.</span>

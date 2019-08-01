@@ -27,7 +27,7 @@ Addition, submission, multiplication, division.
     1. Download the project folder
     2. Open the terminal on your computer
     3. Navigate to the project folder
-    4. Run this command on your terminal:  npm install
+    4. Run this command on your terminal:  npm install -g @angular/cli
     5. Run this command on your terminal:  ng serve
     6. The project will automatically start on your localhost
 

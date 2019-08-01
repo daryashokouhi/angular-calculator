@@ -15,7 +15,7 @@ This tool is build on React and is deployed to Heroku.
 
 <h2>Visuals</h2>
 
-
+<img src="https://github.com/daryashokouhi/angular-calculator/blob/master/src/screenshot1.png" width="400px" /><img src="https://github.com/daryashokouhi/angular-calculator/blob/master/src/screenshot2.png" width="400px" /><img src="https://github.com/daryashokouhi/angular-calculator/blob/master/src/screenshot3.png" width="400px" />
 
 <h2>Features</h2>
 
@@ -39,6 +39,7 @@ Some of the future features to be added to this website are:
     <li>More calculation functionalities</li>
     <li>Improvement on the user interface</li>
     <li>Saving certain amount of calculations in the memory</li>
+    <li>A button to clear all data</li>
 </ul>
 
 
